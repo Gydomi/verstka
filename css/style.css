@@ -63,7 +63,7 @@ textarea {
 header {
   width: 1440px;
   height: 581px;
-  background: url(verstka/images/BG.jpg) no-repeat;
+  background: url(/verstka/images/BG.jpg) no-repeat;
   background-size: cover;
   margin-right: 0;
   margin-bottom: 83px;
