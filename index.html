@@ -10,7 +10,7 @@
     <header>
       <nav class="position">
         <a href="#">
-          <img src="images/logo.png" alt="Logo type Verstka"/>
+          <img src="images/logo.png" alt="Logo type Verstka" />
         </a>
         <ul>
           <li><a href="#section_aritcal">Статьи</a></li>
@@ -25,10 +25,20 @@
       <section class="section_aritcal position">
         <h2>Все статьи</h2>
         <!-- переделать от -->
-        <button type="button" class="choose_theme">
+        <!-- <button type="button" class="choose_theme">
           <span>Выбрать тему</span>
-          <img src="images/Polygon.png" alt="" />
-        </button>
+        </button> -->
+        <div class="poligon">
+          <img  src="images/Polygon.png" alt="" />
+          <select name="artical" id="choose_theme">
+            <option value="choose_theme" selected>Выбрать тему</option>
+            <option value="City"><a href="#">Город</a></option>
+            <option value="book"><a href="#">Книги</a></option>
+            <option value="Travels"><a href="#">Путешествия</a></option>
+            <option value="Recipes"><a href="#">Рецепты</a></option>
+            <option value="foto"><a href="#">Фотографии</a></option>
+          </select>
+        </div>
         <!-- до -->
         <ul class="artical art_one_list">
           <li>
@@ -105,22 +115,24 @@
           <img src="images/aboutme.jpg" alt="Фото обо мне" />
         </figure>
         <p>
-          Всем привет! Меня зовут Аня, и это мой личный блог. <br> Здесь ты найдёшь
-          рассказы о моих путешествиях, снимки <br> на  плёнку, рецепты, обзоры на
-          книги. В общем, тексты о том, что мне инетресно. <br>
-          <br>
+          Всем привет! Меня зовут Аня, и это мой личный блог. <br />
+          Здесь ты найдёшь рассказы о моих путешествиях, снимки <br />
+          на плёнку, рецепты, обзоры на книги. В общем, тексты о том, что мне
+          инетресно. <br />
+          <br />
           Я работаю копирайтером, поэтому мой блоге — это ещё и моё портфолио.
           Ниже размещены несколько моих лучших рабочих текстов. Буду рада новым
-          сотрудничествам! <br>
-          <br>
+          сотрудничествам! <br />
+          <br />
           Если вы хотите написать мне — это можно сделать в соцсетях или через
-          <span> форму</span>. Всегда приятно услышать обратную связь <br> от читателей и
-          познакомиться поближе. <br>
-          <br>
+          <span> форму</span>. Всегда приятно услышать обратную связь <br />
+          от читателей и познакомиться поближе. <br />
+          <br />
           Приятного чтения!
         </p>
         <p>
-          Я верю, что каждый раз пробуя новое,<br> выходящее за зону моего комфорта,<br>
+          Я верю, что каждый раз пробуя новое,<br />
+          выходящее за зону моего комфорта,<br />
           я действительно узнаю настояющую себя.
         </p>
       </section>
@@ -155,7 +167,11 @@
           </li>
         </ul>
         <div class="buton">
-          <input class="input_show_more uppercase" type="button" value="Показать ещё" />
+          <input
+            class="input_show_more uppercase"
+            type="button"
+            value="Показать ещё"
+          />
         </div>
       </section>
       <section id="section_write_me">
@@ -182,7 +198,11 @@
             ></textarea>
           </div>
           <div class="button">
-            <input class="input_show_more uppercase" type="submit" value="Отправить" />
+            <input
+              class="input_show_more uppercase"
+              type="submit"
+              value="Отправить"
+            />
           </div>
         </form>
       </section>
