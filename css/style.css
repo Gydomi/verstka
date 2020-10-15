@@ -315,8 +315,7 @@ h1 {
   line-height: 26px;
   margin: 17px 8px 0 8px;
 }
-#section_portfolio .input_show_more {
-  text-transform: uppercase;
+.input_show_more {
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -393,7 +392,7 @@ h1 {
   padding: 20px 0 0 20px;
 }
 
-.button .input_show_more {
+.uppercase {
   text-transform: uppercase;
 }
 #section_write_me ul input,
