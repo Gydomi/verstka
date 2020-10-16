@@ -312,7 +312,7 @@ h1 {
   height: 525px;
   border-radius: 11px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 15%);
-  /* filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15)); */
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
 }
 #section_portfolio li:nth-of-type(1) {
   background: url(../images/portfolio.jpg);
