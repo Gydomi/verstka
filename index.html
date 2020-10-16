@@ -13,7 +13,7 @@
           <img src="images/logo.png" alt="Logo type Verstka" />
         </a>
         <ul>
-          <li><a href="#section_aritcal">Статьи</a></li>
+          <li><a href="#all_artical">Статьи</a></li>
           <li><a href="#section_about_me">Обо мне</a></li>
           <li><a href="#section_portfolio">Портфолио</a></li>
           <li><a href="#section_write_me">Написать мне</a></li>
@@ -29,7 +29,7 @@
           <span>Выбрать тему</span>
         </button> -->
         <div class="poligon">
-          <img  src="images/Polygon.png" alt="" />
+          <img src="images/Polygon.png" alt="" />
           <select name="artical" id="choose_theme">
             <option value="choose_theme" selected>Выбрать тему</option>
             <option value="City"><a href="#">Город</a></option>
@@ -40,7 +40,7 @@
           </select>
         </div>
         <!-- до -->
-        <ul class="artical art_one_list">
+        <ul id="all_artical" class="artical art_one_list">
           <li>
             <a href="#">
               <img src="images/Group1.jpg" alt="Фото Путешествие в Берлин" />
@@ -106,7 +106,12 @@
           </li>
         </ul>
         <div class="button">
-          <input class="input_show_more" type="button" value="Показать ещё" />
+          <input
+            class="input_show_more"
+            type="button"
+            value="Показать ещё"
+            onclick="window.location.href='index1.html'"
+          />
         </div>
       </section>
       <section id="section_about_me">
@@ -125,7 +130,8 @@
           сотрудничествам! <br />
           <br />
           Если вы хотите написать мне — это можно сделать в соцсетях или через
-          <a href="#section_write_me">форму</a> . Всегда приятно услышать обратную связь <br />
+          <a href="#section_write_me">форму</a> . Всегда приятно услышать
+          обратную связь <br />
           от читателей и познакомиться поближе. <br />
           <br />
           Приятного чтения!
