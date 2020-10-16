@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>maket</title>
+  </head>
+  <body>
+    <header>
+      <nav class="position">
+        <a href="#">
+          <img src="images/logo.png" alt="Logo type Verstka" />
+        </a>
+        <ul>
+          <li><a href="#section_aritcal">Статьи</a></li>
+          <li><a href="#section_about_me">Обо мне</a></li>
+          <li><a href="#section_portfolio">Портфолио</a></li>
+          <li><a href="#section_write_me">Написать мне</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Верстка HTML Academy</h1>
+      <section id="artical" class="section_aritcal position">
+        <h2>Все статьи</h2>
+        <!-- переделать от -->
+        <!-- <button type="button" class="choose_theme">
+          <span>Выбрать тему</span>
+        </button> -->
+        <div class="poligon">
+          <img  src="images/Polygon.png" alt="" />
+          <select name="artical" id="choose_theme">
+            <option value="choose_theme" selected>Выбрать тему</option>
+            <option value="City"><a href="#">Город</a></option>
+            <option value="book"><a href="#">Книги</a></option>
+            <option value="Travels"><a href="#">Путешествия</a></option>
+            <option value="Recipes"><a href="#">Рецепты</a></option>
+            <option value="foto"><a href="#">Фотографии</a></option>
+          </select>
+        </div>
+        <!-- до -->
+        <ul class="artical art_one_list">
+          <li>
+            <a href="#">
+              <img src="images/Group1.jpg" alt="Фото Путешествие в Берлин" />
+              <h3>Путешествие в Берлин в августе</h3>
+              <p>
+                Летний месяц я провела в столице Германии вместе с друзьями. И
+                вот как это было!
+              </p>
+              <span>Теги: путешествия</span>
+              <time datetime="2020-09-29">29.09.2020</time>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="images/Group2.jpg"
+                alt="Фото Где выпить колдбрю в Москве"
+              />
+              <h3>Где выпить колдбрю в Москве</h3>
+              <p>
+                Собрала для вас список любимых кофеен, <br />
+                где подают лучший летний напиток.
+              </p>
+              <span>Теги: город</span>
+              <time datetime="2020-07-24">24.07.2020</time>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/Group3.jpg" alt="Фото Книжные рекомендации" />
+              <h3>Прочитано: книжные рекомендации</h3>
+              <p>
+                Рассказываю о прочитанных за последнее время книгах: фавориты и
+                провалы.
+              </p>
+              <span>Теги: книги</span>
+              <time datetime="2020-07-15">15.07.2020</time>
+            </a>
+          </li>
+        </ul>
+        <ul class="art_two_list">
+          <li>
+            <a href="#">
+              <h3>Снимки на плёнку</h3>
+              <p>
+                Поделилась с вами весенними фотографиями, <br />
+                и секретами удачных снимков.
+              </p>
+              <span>Теги: фотографии</span>
+              <time datetime="2020-06-29">29.06.2020</time>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h3>Домашний чизкейк</h3>
+              <p>
+                Что может быть лучше чизкейка с сезонными ягодами? Только
+                домашний чизкейк!
+              </p>
+              <span>Теги: рецепты</span>
+              <time datetime="2020-06-24">24.06.2020</time>
+            </a>
+          </li>
+        </ul>
+        <div class="button">
+          <input class="input_show_more" type="button" value="Показать ещё" />
+        </div>
+      </section>
+      <section id="section_about_me">
+        <h2>Обо мне</h2>
+        <figure>
+          <img src="images/aboutme.jpg" alt="Фото обо мне" />
+        </figure>
+        <p>
+          Всем привет! Меня зовут Аня, и это мой личный блог. <br />
+          Здесь ты найдёшь рассказы о моих путешествиях, снимки <br />
+          на плёнку, рецепты, обзоры на книги. В общем, тексты о том, что мне
+          инетресно. <br />
+          <br />
+          Я работаю копирайтером, поэтому мой блоге — это ещё и моё портфолио.
+          Ниже размещены несколько моих лучших рабочих текстов. Буду рада новым
+          сотрудничествам! <br />
+          <br />
+          Если вы хотите написать мне — это можно сделать в соцсетях или через
+          <span> форму</span>. Всегда приятно услышать обратную связь <br />
+          от читателей и познакомиться поближе. <br />
+          <br />
+          Приятного чтения!
+        </p>
+        <p>
+          Я верю, что каждый раз пробуя новое,<br />
+          выходящее за зону моего комфорта,<br />
+          я действительно узнаю настояющую себя.
+        </p>
+      </section>
+      <section id="section_portfolio" class="position">
+        <h2>Портфолио</h2>
+        <ul>
+          <li>
+            <h3>Блог HTML Academy</h3>
+            <h4>«Как учиться продуктивно»</h4>
+            <p>
+              Про основные методы обучения, которые помогут быстро и надолго
+              запомнить информацию.
+            </p>
+          </li>
+
+          <li>
+            <h3>Журнал «LNK»</h3>
+            <h4>«Зачем поцели нужны человеку? И какие они бывают»</h4>
+            <p>
+              Поцелуи — повсеместная ежедневная практика. Но зачем люди
+              целуются? Какие смысли вкладывают в этот ритуал? И где корни этой
+              практики?
+            </p>
+          </li>
+          <li>
+            <h3>Журнал «Т — Л»</h3>
+            <h4>«Советы по эффективной удалённой работе»</h4>
+            <p>
+              Поделилась лайфхаками, которые помогают мне работать продуктивно
+              из дома.
+            </p>
+          </li>
+        </ul>
+        <div class="buton">
+          <input
+            class="input_show_more uppercase"
+            type="button"
+            value="Показать ещё"
+          />
+        </div>
+      </section>
+      <section id="section_write_me">
+        <h2>Написать мне</h2>
+        <form action="#">
+          <ul>
+            <li>
+              <label>Ваше имя</label>
+              <input type="text" placeholder="Иван Иванов" />
+            </li>
+            <li>
+              <label>Email</label>
+              <input type="text" placeholder="google@gmail.com" />
+            </li>
+          </ul>
+          <div class="textarea">
+            <label>Сообщение</label>
+            <textarea
+              name="#"
+              id="#"
+              cols="30"
+              rows="1"
+              placeholder="Напишите здесь ваше сообщение."
+            ></textarea>
+          </div>
+          <div class="button">
+            <input
+              class="input_show_more uppercase"
+              type="submit"
+              value="Отправить"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h2>Социальные сети</h2>
+      <ul>
+        <li><a href="https://vk.com" target="_blank">ВК</a></li>
+        <li><a href="web.telegram.org" target="_blank">Телеграм</a></li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">Инстаграм</a>
+        </li>
+        <li><a href="https://twitter.com" target="_blank">Твиттер</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

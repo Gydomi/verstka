@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Spectral+SC:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 body {
   width: 1440px;
   min-width: 100%;
@@ -59,6 +60,72 @@ textarea {
 .flex_sb {
   display: flex;
   justify-content: space-between;
+}
+.comment_header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 76px 0 69px 81px;
+}
+.block_comments form {
+  width: 793px;
+  height: 208px;
+  margin: 0 0 80px 0;
+}
+.input_profile_comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  width: 385px;
+  height: 208px;
+}
+.input_prof {
+  width: 250px;
+}
+.input_prof input {
+  display: inline-block;
+  width: 217px;
+  height: 41px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+  margin: -8px 0 35px 13px;
+}
+.input_prof input::placeholder {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.block_comments form textarea {
+  float: right;
+  width: 404px;
+  height: 206px;
+  border: 1px solid #2e2f22;
+  border-radius: 10px;
+  margin: 0 1px 0 0;
+  resize: none;
+}
+#textarea::placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 17px 20px;
+}
+.button {
+  width: 225px;
+  margin: 0 auto;
+}
+.input_show_more {
+  width: 224px;
+  height: 46px;
+  border: 1px solid #202117;
+  border-radius: 10px;
+  outline: none;
+  background: none;
+  font-size: 17px;
+  padding-top: 5px;
+  color: #202117;
 }
 /* --------------- Header ---------------------- */
 header {
@@ -124,23 +191,78 @@ nav li:last-child {
   margin: 41px 0 0 1px;
 }
 
-.col_like {
-  position: relative;
-  top: 2;
-  left: 2;
-  display: inline-block;
+.like {
+  display: flex;
 }
-.col_like input[type="text"] {
-  width: 28px;
+.like img {
+  margin: 0px 6px 6px 0px;
+}
+.like input[type="text"] {
+  margin: 23px 0 0 6px;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 26px;
   outline: none;
   border: none;
 }
-
 .social_seti img {
   margin-left: 28px;
+}
+
+.link {
+  margin: 30px 0 0 2px;
+}
+.link span {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 49px;
+  letter-spacing: 20;
+}
+.link a img {
+  margin: 0 0 3px 23px;
+}
+/* ------------------comments------------------ */
+.block_comments {
+  width: 793px;
+  margin: 65px 0 0 121px;
+}
+.comments {
+  display: inline-block;
+  width: 793px;
+  background: #ece1e1;
+  border-radius: 10px;
+}
+.comments ul {
+  margin: 44px 0 50px 101px;
+}
+.comments ul li:nth-of-type(1) {
+  margin: 0 0 55px 0;
+}
+.comments ul li:nth-of-type(2) {
+  margin: 0 0 23px 0;
+}
+.comments img {
+  display: inline-block;
+  float: left;
+  border-radius: 10px;
+  margin: 0 13px 14px 0;
+}
+.comments p {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 14px 0 0 0;
+}
+.comments li:last-of-type p {
+  margin: 14px 0 0 -2px;
+}
+.name_profile {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.text_comments {
+  margin: 0 0 0 0;
 }
 
 /* ------------------Footer------------------ */

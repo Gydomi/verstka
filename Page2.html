@@ -75,8 +75,8 @@
         <div class="icon">
           <div class="like">
             <img src="images/like.svg" alt="like" />
-            <div class="col_like">
-              <input type="text" value="16" />
+            <div class="ddd">
+              <input type="text" placeholder="16" />
             </div>
           </div>
           <div class="social_seti">
@@ -86,13 +86,58 @@
           </div>
         </div>
         <div class="link">
-          <a href="">Ко всем статьям</a>
+          <span>Ко всем статьям</span>
+          <a href="/page1.html#artical">
+            <img src="images/Arrow.svg" alt="arrow" />
+          </a>
         </div>
-        <img src="" alt="arrow" />
       </section>
-      <section class="comments"></section>
+      <section class="block_comments">
+        <div class="comments">
+          <ul>
+            <li>
+              <img src="images/Rectangle 24.jpg" alt="foto_profile" />
+              <p class="name_profile">Иван Петров</p>
+              <p class="text_comments clearfix">Отличная статья! Спасибо.</p>
+            </li>
+            <li>
+              <img src="images/Rectangle 25.jpg" alt="foto_profile" />
+              <p class="name_profile">Ксения Ксения</p>
+              <p class="text_comments clearfix">
+                Отличный текст, добавила в закладки.
+              </p>
+            </li>
+            <li>
+              <img src="images/Rectangle 26.jpg" alt="foto_profile" />
+              <p class="name_profile">Иван Иванов</p>
+              <p class="text_comments clearfix">
+                Основательный материал! Можешь посоветовать какие-то книги на
+                эту тему?
+              </p>
+            </li>
+          </ul>
+        </div>
+        <p class="comment_header">Оставить комментарий</p>
+        <form action="">
+          <div class="input_profile_comment">
+            <div class="input_prof">
+              <input type="text" name="" id="" placeholder="Имя" />
+              <input type="email" name="" id="" placeholder="Почта" />
+            </div>
+            <input class="input_show_more" type="button" value="Отправить" />
+          </div>
+          <textarea
+            id="textarea"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Написать комментарий..."
+          ></textarea>
+        </form>
+      </section>
     </main>
-    <footer>
+    <footer class="clearfix">
       <h2>Социальные сети</h2>
       <ul>
         <li><a href="https://vk.com" target="_blank">ВК</a></li>
